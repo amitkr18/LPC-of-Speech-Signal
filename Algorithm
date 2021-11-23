@@ -1,0 +1,7 @@
+Divide the speech signals into Hamming windowed frames.
+The following operations are to be done framewise:
+Perform LPC analysis. Plot the DFT spectrum and LPC spectrum on the same plot.
+Obtain the inverse filter.
+Using the inverse filter, obtain the LPC residual signal.
+Use the LPC residual to excite the LPC filter and produce a (synthetic) speech frame.
+Perform overlap-add to obtain back the speech signal. Play back the speech signal.
